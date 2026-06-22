@@ -61,7 +61,7 @@ app.use(session({
 ========================= */
 
 mongoose.connect(
-    "mongodb+srv://vigneshgandhi15_db_user:wM2Ly3T5ruMQY0Vg@cluster0.itmrdey.mongodb.net/?appName=Cluster0"
+    "mongodb+srv://vigneshgandhi15_db_user:wM2Ly3T5ruMQY0Vg@cluster0.itmrdey.mongodb.net/?appName=Cluster0/Tvk_tracking/"
 )
 .then(() => {
 
