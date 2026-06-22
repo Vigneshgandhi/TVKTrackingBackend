@@ -61,7 +61,7 @@ app.use(session({
 ========================= */
 
 mongoose.connect(
-    "mongodb://127.0.0.1:27017/Tvk_tracking"
+    "mongodb+srv://<db_username>:<db_password>@cluster0.itmrdey.mongodb.net/?appName=Cluster0"
 )
 .then(() => {
 
