@@ -1539,6 +1539,12 @@ app.get("/api/reports", async (req, res) => {
 
 });
 
+app.get("/health", (req, res) => {
+    res.json({
+        mongoState: mongoose.connection.readyState
+    });
+});
+
 app.get("/",(req,res)=>{
     res.json({server:"activated",message:"verifyable",data_unleashed:"true"});
 });
